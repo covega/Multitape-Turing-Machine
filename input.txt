@@ -1,0 +1,12 @@
+//Accepts transitions in pairs for a two tape turing machine
+
+//first line should be the accepting state
+//afterwards should be transitions in the format as follows
+
+input:
+tape1: state, current symbol, new symbol, movement, next state
+tape2: state, current symbol, new symbol, movement, next state
+
+//symbols are 0 1 _
+//movement chars are < > _
+//input transitions without any spaces in between
